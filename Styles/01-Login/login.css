@@ -1,0 +1,36 @@
+:root{
+    /*Colores*/
+    --primary-color: #5ABEBD;
+    --black: #000;
+    --background-color: #F4F7F6;
+    --border: #DBE0DF;
+}
+
+html{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*logo*/
+.container-logo{
+    position: relative;
+}
+
+.container-logo .logo{
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-color);
+    padding: 40px;
+    border-radius: 0 0 200px 200px;
+}
+
+/* .container-logo .line{
+    position: absolute;
+    height: 216px;
+    border: 1px solid var(--border);
+    border-radius: 0 0 200px 200px;
+}
+
+.container-logo .line:last-child{
+    height: 236px;
+    border-radius: 0 0 250px 250px;
+} */
